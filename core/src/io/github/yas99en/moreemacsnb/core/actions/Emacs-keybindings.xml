@@ -26,7 +26,7 @@ License Header, with the fields enclosed by brackets [] replaced by
 your own identifying information:
 "Portions Copyrighted [year] [name of copyright owner]"
 
-Contributor(s):
+Contributor(s): Toshikazu Ito
 
 The Original Software is NetBeans. The Initial Developer of the Original
 Software is Sun Microsystems, Inc. Portions Copyright 1997-2006 Sun
@@ -68,7 +68,9 @@ made subject to such option by the copyright holder.
     <bind actionName="caret-end-line" key="END"/>
     <bind actionName="caret-forward" key="C-F"/>
     <bind actionName="caret-forward" key="RIGHT"/>
-    <bind actionName="caret-line-first-column" key="C-A"/>
+    <!-- honey comb modify
+    <bind actionName="caret-line-first-column" key="C-A"/> -->
+    <bind actionName="bol-ht" key="C-A"/>
     <bind actionName="caret-next-word" key="O-F"/>
     <bind actionName="caret-next-word" key="C-RIGHT"/>
     <bind actionName="caret-previous-word" key="O-B"/>
@@ -88,7 +90,9 @@ made subject to such option by the copyright holder.
     <bind actionName="cut-to-clipboard" key="CUT"/>
     <bind actionName="cut-to-clipboard" key="C-W"/>    
     <bind actionName="cut-to-line-begin" key="O-0$C-K"/>
-    <bind actionName="cut-to-line-end" key="C-K"/>
+    <!-- honey comb modify
+    <bind actionName="cut-to-line-end" key="C-K"/>-->
+    <bind actionName="kill-line-ht" key="C-K"/>
     <bind actionName="delete-next" key="DELETE"/>
     <bind actionName="delete-next" key="C-D"/> 
     <bind actionName="delete-previous" key="BACK_SPACE"/>
